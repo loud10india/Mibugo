@@ -125,7 +125,7 @@ export default function Home7({ onePage = false, dark = false }) {
                     </div>
                     <div className='row'>
                         <div className='col-lg-8 offset-lg-2 text-center'>
-                            <p className='text-gray mb-30 mb-sm-10'>
+                            <p className='text-gray '>
                                 Ready to take your business to the next level? Let us provide the strategic insight and guidance you need to fuel
                                 sustainable growth. Contact us today for a free consultation!
                             </p>

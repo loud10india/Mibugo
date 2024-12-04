@@ -1,59 +1,94 @@
+"use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 import { blogs1 } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useRef } from "react";
+
+import "swiper/css"; // Import Swiper styles
+import "swiper/css/navigation"; // Import Swiper Navigation styles
 
 export default function Blog() {
-  return (
-    <div className="row mt-n50">
-      {/* Post Item */}
-      {blogs1.map((elm, i) => (
-        <div
-          key={i}
-          className="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft"
-          data-wow-delay={elm.delay}
-        >
-          <div className="post-prev-container">
-            <div className="post-prev-img">
-              <Link href={`/main-blog-single-sidebar-right/${elm.id}`}>
-                <Image
-                  width={650}
-                  height={412}
-                  src={elm.imgSrc}
-                  alt="Add Image Description"
-                />
-              </Link>
-            </div>
-            <h4 className="post-prev-title">
-              <Link href={`/main-blog-single-sidebar-right/${elm.id}`}>
-                {elm.title}
-              </Link>
-            </h4>
-            <div className="post-prev-text">{elm.text}</div>
-            <div className="post-prev-info clearfix">
-              <div className="float-start">
-                <a href="#">
-                  <Image
-                    className="post-prev-author-img"
-                    width={30}
-                    height={30}
-                    src={elm.authorImg}
-                    alt="Image Description"
-                  />
-                </a>
-                <a href="#">{elm.authorName}</a>
-              </div>
-              <div className="float-end">
-                <a href="#">{elm.date}</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      ))}
-      {/* End Post Item */}
-      {/* Post Item */}
+    const swiperRef = useRef(null);
 
-      {/* End Post Item */}
-    </div>
-  );
+    return (
+        <div className='container mt-n50 position-relative'>
+            <Swiper
+                ref={swiperRef}
+                spaceBetween={20}
+                slidesPerView={1}
+                breakpoints={{
+                    768: {
+                        slidesPerView: 2, // Medium screens: show 2 cards
+                    },
+                    1024: {
+                        slidesPerView: 3, // Large screens: show 3 cards
+                    },
+                }}
+                modules={[Navigation]}
+                navigation={{
+                    prevEl: ".custom-prev",
+                    nextEl: ".custom-next",
+                }}
+                watchSlidesProgress
+                resizeObserver
+                className='team-carousel overflow-hidden position-static'
+            >
+                {/* Blog Items */}
+                {blogs1.slice(0, 5).map((elm, i) => (
+                    <SwiperSlide key={i} className='post-prev'>
+                        <div className='post-prev-container'>
+                            <div className='post-prev-img'>
+                                <Link href={`/main-blog-single-sidebar-right/${elm.id}`}>
+                                    <Image width={650} height={412} src={elm.imgSrc} alt='Add Image Description' />
+                                </Link>
+                            </div>
+                            <h4 className='post-prev-title'>
+                                <Link href={`/main-blog-single-sidebar-right/${elm.id}`}>{elm.title}</Link>
+                            </h4>
+                            <div className='post-prev-text'>{elm.text}</div>
+                            <div className='post-prev-info clearfix'>
+                                <div className='float-start'>
+                                    <a href='#'>{elm.authorName}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+
+            {/* Navigation Buttons */}
+            <div className='custom-controls'>
+                <div
+                    className='custom-prev flex items-center justify-center w-20 h-20 rounded-full  shadow-lg hover:bg-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-110'
+                    role='button'
+                    tabIndex='0'
+                    style={{
+                        position: "absolute",
+                        top: "50%",
+                        left: "-20px",
+                        transform: "translateY(-50%)",
+                    }}
+                >
+                    <span className='visually-hidden'>Previous Slide</span>
+                    <i className='mi-arrow-left text-black text-xl' aria-hidden='true'></i>
+                </div>
+                <div
+                    className='custom-next flex items-center justify-center w-12 h-12 rounded-full  shadow-lg hover:bg-gray-200 hover:shadow-xl transition-all duration-300 transform hover:scale-110'
+                    role='button'
+                    tabIndex='0'
+                    style={{
+                        position: "absolute",
+                        top: "50%",
+                        right: "-20px",
+                        transform: "translateY(-50%)",
+                    }}
+                >
+                    <span className='visually-hidden'>Next Slide</span>
+                    <i className='mi-arrow-right text-black text-xl' aria-hidden='true'></i>
+                </div>
+            </div>
+        </div>
+    );
 }
