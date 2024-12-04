@@ -10,6 +10,12 @@ import Image from "next/image";
 const onePage = false;
 const dark = false;
 
+// export const metadata = {
+//     title: "Mibugo Consulting - Unlock Your Business Potential",
+//     description:
+//         "Unleash your business's true potential with Mibugo Consulting, one of India's leading boutique consulting firms, dedicated to driving growth and innovation for SMEs and startups.",
+// };
+
 export default function GradientAboutPage() {
     const [activeMember, setActiveMember] = useState(null); // Track the active member's modal
 
@@ -18,7 +24,7 @@ export default function GradientAboutPage() {
             <div className='theme-gradient'>
                 <div className='page' id='top'>
                     <nav className='main-nav transparent stick-fixed wow-menubar wch-unset'>
-                        <Header7 links={gradientMultipage} />
+                        <Header7 links={gradientMultipage} id='footer' />
                     </nav>
                     <main id='main'>
                         {/* About Us Section */}
@@ -109,10 +115,9 @@ export default function GradientAboutPage() {
                             </div>
                         )}
                     </main>
-
-                    <footer className='page-section footer bg-dark-1 light-content overflow-hidden pb-30'>
+                    <footer id='footer' className='page-section footer bg-dark-1 light-content overflow-hidden pb-30'>
                         <div className='bg-shape-4'>
-                            <Image width={1443} height={644} src='/assets/images/demo-gradient/bg-shape-1.svg' alt='' />
+                            <Image width='1443' height='644' src='/assets/images/demo-gradient/bg-shape-1.svg' alt='' />
                         </div>
                         <Footer7 />
                     </footer>
