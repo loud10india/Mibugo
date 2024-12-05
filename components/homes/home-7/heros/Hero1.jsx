@@ -26,17 +26,13 @@ export default function Hero1() {
                                     </div>
                                 </div>
                                 <div className='local-scroll wow fadeInUp wch-unset' data-wow-delay='0.3s' data-wow-offset={0}>
-                                    <a href='#contact' className='btn btn-mod btn-grad btn-large btn-round mb-xs-10' data-btn-animate='y'>
+                                    <a
+                                        href='https://calendly.com/mibugo-consulting/30min'
+                                        className='btn btn-mod btn-grad btn-large btn-round mb-xs-10'
+                                        data-btn-animate='y'
+                                    >
                                         Book a Free Consultation
                                     </a>
-                                    {/* <a href='#about' className='link-hover-anim link-gradient ms-2 ms-sm-5 me-2' data-link-animate='y'>
-                                        <span className='link-strong link-strong-unhovered'>
-                                            Learn more <i className='mi-arrow-right size-24' aria-hidden='true'></i>
-                                        </span>
-                                        <span className='link-strong link-strong-hovered' aria-hidden='true'>
-                                            Learn more <i className='mi-arrow-right size-24' aria-hidden='true'></i>
-                                        </span>
-                                    </a> */}
                                 </div>
                             </div>
                         </div>
@@ -69,7 +65,7 @@ export default function Hero1() {
                 </div>
                 {/* End Home Section Content */}
                 {/* Scroll Down */}
-                <div className='local-scroll scroll-down-wrap-type-1 wow fadeInUp' data-wow-offset={0}>
+                {/* <div className='local-scroll scroll-down-wrap-type-1 wow fadeInUp' data-wow-offset={0}>
                     <div className='container text-center text-lg-start'>
                         <a href='#about' className='scroll-down-1'>
                             <div className='scroll-down-1-icon'>
@@ -78,7 +74,7 @@ export default function Hero1() {
                             <div className='scroll-down-1-text'>Scroll Down</div>
                         </a>
                     </div>
-                </div>
+                </div> */}
                 {/* End Scroll Down */}
             </div>
         </>

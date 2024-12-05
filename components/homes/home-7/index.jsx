@@ -52,17 +52,17 @@ export default function Home7({ onePage = false, dark = false }) {
                                             <>
                                                 {" "}
                                                 <a
-                                                    href='#services'
+                                                    href='https://calendly.com/mibugo-consulting/30min'
                                                     className='btn btn-mod btn-border-w-light btn-medium btn-round'
                                                     data-btn-animate='y'
                                                 >
                                                     <span className='btn-animate-y'>
                                                         <span className='btn-animate-y-1'>
-                                                            View services
+                                                            Book a Free Consultation
                                                             <i className='mi-arrow-right size-24 align-center' aria-hidden='true'></i>
                                                         </span>
                                                         <span className='btn-animate-y-2' aria-hidden='true'>
-                                                            View services
+                                                            Book a Free Consultation
                                                             <i className='mi-arrow-right size-24 align-center' aria-hidden='true'></i>
                                                         </span>
                                                     </span>
@@ -72,17 +72,17 @@ export default function Home7({ onePage = false, dark = false }) {
                                             <>
                                                 {" "}
                                                 <Link
-                                                    href={`/gradient-services${dark ? "-dark" : ""}`}
+                                                    href={`https://calendly.com/mibugo-consulting/30min ${dark ? "-dark" : ""}`}
                                                     className='btn btn-mod btn-border-w-light btn-medium btn-round'
                                                     data-btn-animate='y'
                                                 >
                                                     <span className='btn-animate-y'>
                                                         <span className='btn-animate-y-1'>
-                                                            View services
+                                                            Book a Free Consultation
                                                             <i className='mi-arrow-right size-24 align-center' aria-hidden='true'></i>
                                                         </span>
                                                         <span className='btn-animate-y-2' aria-hidden='true'>
-                                                            View services
+                                                            Book a Free Consultation
                                                             <i className='mi-arrow-right size-24 align-center' aria-hidden='true'></i>
                                                         </span>
                                                     </span>
@@ -111,7 +111,7 @@ export default function Home7({ onePage = false, dark = false }) {
                         </div>
                     </div>
                     <div className='text-center'>
-                        <h3 className='section-title-repeat mb-40 mb-sm-30'>
+                        <h3 className='section-title-repeat '>
                             <span className='section-title-repeat-left' aria-hidden='true'>
                                 Unlock Growth
                             </span>
@@ -125,7 +125,7 @@ export default function Home7({ onePage = false, dark = false }) {
                     </div>
                     <div className='row'>
                         <div className='col-lg-8 offset-lg-2 text-center'>
-                            <p className='text-gray '>
+                            <p className='text-gray mb-40 mb-sm-30'>
                                 Ready to take your business to the next level? Let us provide the strategic insight and guidance you need to fuel
                                 sustainable growth. Contact us today for a free consultation!
                             </p>
@@ -138,9 +138,9 @@ export default function Home7({ onePage = false, dark = false }) {
                     <div className='col-lg-8 offset-lg-2 text-center'>
                         <h2 className='section-caption-gradient mb-20 mb-xs-10'>Contact US</h2>
                         <div className='section-line-gradient mx-auto mb-20' />
-                        <h3 className='section-title mb-40 mb-sm-30'>
-                            Unlock the potential of your business with one of India's leading boutique business consulting firms.
-                        </h3>
+                        {/* <h3 className='section-title mb-40 mb-sm-30'>
+                        
+                        </h3> */}
                         <p className='text-gray mb-80 mb-sm-60'>
                             Your journey toward success begins with a simple message. Connect with us to explore how our consulting services can
                             transform your business. We're ready to support your growth every step of the way.

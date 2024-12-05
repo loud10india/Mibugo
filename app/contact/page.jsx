@@ -45,9 +45,9 @@ export default function GradientContactPage() {
                         <section className={`page-section  scrollSpysection   ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
                             <Contact />
                         </section>
-                        <div className='google-map'>
+                        {/* <div className='google-map'>
                             <Map />
-                        </div>
+                        </div> */}
                         {/* <!-- End Google Map --> */}
 
                         {/* <!-- FAQ Section --> */}

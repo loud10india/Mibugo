@@ -15,7 +15,7 @@ export const contactItems = [
         title: "Email",
         text: "info@mibugo.com",
         link: {
-            url: "info@mibugo.com",
+            url: "mailto:info@mibugo.com",
             text: "Say Hello",
         },
     },
