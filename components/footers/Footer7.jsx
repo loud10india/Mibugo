@@ -59,10 +59,10 @@ export default function Footer7() {
                 {/* Footer Text */}
                 <div className='row text-gray'>
                     <div className='col-md-4 col-lg-3'>
-                        <b>© IB-Themes {new Date().getFullYear()}.</b>
+                        <b>© Mibugo Consulting {new Date().getFullYear()}</b>
                     </div>
                     <div className='col-md-7 offset-md-1 offset-lg-2 clearfix'>
-                        <b>Based in London, United Kingdom.</b>
+                        {/* <b>Based in London, United Kingdom.</b> */}
                         {/* Back to Top Link */}
                         <div className='local-scroll float-end mt-n20 mt-sm-10'>
                             <a href='#top' className='link-to-top gradient'>

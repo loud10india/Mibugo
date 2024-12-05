@@ -31,10 +31,10 @@ export default function Header7({ links }) {
             </div>
             {/* Main Menu */}
             <div className='inner-nav desktop-nav'>
-                {/* <ul className='clearlist scroll-nav local-scroll justify-content-start scrollspyLinks'>
-                    <Nav links={links} animateY />
-                </ul> */}
                 <ul className='clearlist scroll-nav local-scroll justify-content-start scrollspyLinks'>
+                    <Nav links={links} animateY />
+                </ul>
+                {/* <ul className='clearlist scroll-nav local-scroll justify-content-start scrollspyLinks'>
                     {links.map((link, index) => (
                         <li
                             key={index}
@@ -56,7 +56,7 @@ export default function Header7({ links }) {
                             )}
                         </li>
                     ))}
-                </ul>
+                </ul> */}
 
                 <ul className='items-end clearlist local-scroll'>
                     {/* Languages */}

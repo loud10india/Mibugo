@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-swiper-button-prev {
+    background-color: orange !important;
+    border-radius: 9999px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.my-swiper-button-prev:hover {
+    transform: scale(1.1);
+}
+
+.my-swiper-button-next {
+    background-color: orange !important;
+    border-radius: 9999px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.my-swiper-button-next:hover {
+    transform: scale(1.1);
+}
