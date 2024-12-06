@@ -1,6 +1,6 @@
 "use client";
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
-import Nav from "./components/Nav";
+import Nav2 from "./components/Nav2";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -32,7 +32,7 @@ export default function Header7({ links }) {
             {/* Main Menu */}
             <div className='inner-nav desktop-nav'>
                 <ul className='clearlist scroll-nav local-scroll justify-content-start scrollspyLinks'>
-                    <Nav links={links} animateY />
+                    <Nav2 links={links} animateY />
                 </ul>
                 {/* <ul className='clearlist scroll-nav local-scroll justify-content-start scrollspyLinks'>
                     {links.map((link, index) => (

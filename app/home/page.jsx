@@ -1,9 +1,11 @@
 import Footer7 from "@/components/footers/Footer7";
-import Header7 from "@/components/headers/Header7";
+import Header1Multipage from "@/components/headers/Header1Multipage";
+// import Header7 from "@/components/headers/Header7";
 import Home7 from "@/components/homes/home-7";
 import Hero1 from "@/components/homes/home-7/heros/Hero1";
-import { gradientMultipage } from "@/data/menu";
+// import { gradientMultipage } from "@/data/menu";
 import Image from "next/image";
+import { menuItems } from "@/data/menu";
 
 export const metadata = {
     title: "Mibugo Consulting - Unlock Your Business Potential",
@@ -15,8 +17,8 @@ export default function Home7MainDemoMultiPage() {
         <>
             <div className='theme-gradient'>
                 <div className='page' id='top'>
-                    <nav className='main-nav transparent stick-fixed wow-menubar wch-unset'>
-                        <Header7 links={gradientMultipage} />
+                    <nav className='main-nav transparent stick-fixed wow-menubar'>
+                        <Header1Multipage links={menuItems} />
                     </nav>
                     <main id='main'>
                         <section className='home-section bg-gradient-gray-light-1 bg-scroll scrollSpysection' id='home'>

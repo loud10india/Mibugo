@@ -44,6 +44,23 @@ export default function OnePageNav({ links, animateY = false }) {
                         </Link>
                     </li>
                 ))}
+            {!links[0].href?.includes("/") &&
+                links.map((link, index) => (
+                    <li className='scrollspy-link' key={index}>
+                        <a onClick={() => closeMobileMenu()} className='' href={link.href}>
+                            {animateY ? (
+                                <span class='btn-animate-y'>
+                                    <span class='btn-animate-y-1'>{link.text}</span>
+                                    <span class='btn-animate-y-2' aria-hidden='true'>
+                                        {link.text}
+                                    </span>
+                                </span>
+                            ) : (
+                                link.text
+                            )}
+                        </a>
+                    </li>
+                ))}
         </>
     );
 }

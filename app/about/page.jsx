@@ -53,12 +53,12 @@ export default function GradientAboutPage() {
                             id='about'
                         >
                             <div className='row container'>
-                                <div className='col-lg-5 '>
+                                <div className='col-lg-4 '>
                                     <div className='lead-alt wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
                                         Our mission is delivering innovative strategies for business growth.
                                     </div>
                                 </div>
-                                <div className='col-lg-7 wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
+                                <div className='col-lg-8 wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
                                     <p className='mb-0'>
                                         At Mibugo Consulting, our team is the backbone of your business transformation. Comprising experts from
                                         diverse fields, we bring strategic insights, innovative solutions, and a shared commitment to your success.
@@ -68,7 +68,6 @@ export default function GradientAboutPage() {
                                 </div>
                             </div>
                         </section>
-
                         {/* Team Section */}
                         <section className='page-section' id='team'>
                             <div className='container'>
