@@ -7,6 +7,8 @@ import { useState } from "react";
 import { gradientMultipage } from "@/data/menu";
 import Image from "next/image";
 import Faq from "@/components/common/Faq";
+import Header1Multipage from "@/components/headers/Header1Multipage";
+import { menuItems } from "@/data/menu";
 
 const onePage = false;
 const dark = false;
@@ -24,8 +26,11 @@ export default function GradientAboutPage() {
         <>
             <div className='theme-gradient'>
                 <div className='page' id='top'>
-                    <nav className='main-nav transparent stick-fixed wow-menubar wch-unset'>
-                        <Header7 links={gradientMultipage} id='footer' />
+                    {/* <nav className='main-nav transparent stick-fixed wow-menubar'>
+                        <Header1Multipage links={menuItems} />
+                    </nav> */}
+                    <nav className='main-nav transparent stick-fixed wow-menubar'>
+                        <Header7 links={menuItems} />
                     </nav>
                     <main id='main'>
                         {/* About Us Section */}
@@ -68,6 +73,8 @@ export default function GradientAboutPage() {
                                 </div>
                             </div>
                         </section>
+                        <hr className='mt-0 mb-20 mb-sm-10' />
+
                         {/* Team Section */}
                         <section className='page-section' id='team'>
                             <div className='container'>
@@ -115,6 +122,8 @@ export default function GradientAboutPage() {
                             </div>
                         )}
 
+                        {/* <hr className='container mt-0 mb-80 mb-sm-40' /> */}
+
                         <section className='page-section z-index-1'>
                             <div className='container position-relative'>
                                 <div className='row position-relative'>
@@ -122,9 +131,9 @@ export default function GradientAboutPage() {
                                         <h3 className='section-title mb-30'>Frequently Asked Questions</h3>
 
                                         <p className='text-gray mb-0'>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar vitae neque et porttitor. Integer
-                                            non dapibus diam, ac eleifend lectus lorem ipsum. In maximus ligula semper metus pellentesque mattis.
-                                            Maecenas volutpat, diam enim sagittis quam.
+                                            Curious about how a business consulting firm can help your growth? Our FAQs provide insights into our
+                                            services, process, and expertise. Discover how Mibugo Consulting empowers businesses to overcome
+                                            challenges and achieve success.
                                         </p>
                                     </div>
 

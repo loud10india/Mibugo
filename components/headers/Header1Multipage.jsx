@@ -14,8 +14,8 @@ export default function Header1Multipage({ links }) {
               image size for support of retina screens. See details in the template documentation. *) */}
             <div className='nav-logo-wrap local-scroll'>
                 <Link href={`/`} className='logo'>
-                    <Image src='/assets/images/logo-dark.svg' alt='Your Company Logo' width={105} height={34} className='light-mode-logo' />
-                    <Image src='/assets/images/logo-white.svg' alt='Your Company Logo' width={105} height={34} className='dark-mode-logo' />
+                    <Image src='/assets/images/mibugo-logo.svg' alt='Your Company Logo' width={200} height={200} className='light-mode-logo' />
+                    <Image src='/assets/images/mibugo-logo.svg' alt='Your Company Logo' width={160} height={80} className='dark-mode-logo' />
                 </Link>
             </div>
             {/* Mobile Menu Button */}
@@ -30,19 +30,16 @@ export default function Header1Multipage({ links }) {
                     <Nav2 links={links} />
                     {/* End Item With Sub */}
                 </ul>
-                <ul className='items-end clearlist'>
+                <ul className='items-end clearlist local-scroll'>
                     {/* Languages */}
-                    <LanguageSelect />
+                    {/* <LanguageSelect /> */}
                     {/* End Languages */}
                     <li>
-                        <Link href='/main-pages-contact-1' className='opacity-1 no-hover'>
-                            <span className='link-hover-anim underline' data-link-animate='y'>
-                                <span className='link-strong link-strong-unhovered'>Let's work together</span>
-                                <span className='link-strong link-strong-hovered' aria-hidden='true'>
-                                    Let's work together
-                                </span>
+                        <a href='/contact' className='opacity-1 no-hover'>
+                            <span className='btn btn-mod btn-border-grad btn-small btn-round'>
+                                <span data-btn-animate='y'>Get in touch</span>
                             </span>
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>

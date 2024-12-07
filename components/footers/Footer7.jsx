@@ -9,20 +9,25 @@ export default function Footer7() {
             <div className='container position-relative'>
                 <div className='row pb-120 pb-sm-80 pb-xs-50'>
                     <div className='col-md-4 mb-sm-50'>
-                        <h2 className='section-title-small mt-n10 mb-30'>Get started with Resonance Template</h2>
+                        <h2 className='section-title-small mt-n10 mb-30'>Your Goals, Our Priority</h2>
                         <p className='text-gray mb-40'>
-                            Integer auctor aliquet martor, sed lorem malesuada eros blandit eget. Proin lacinia mortoc id odio vestibulum lorem ipsum.
+                            Book a free consultation with our team and discover actionable strategies to achieve your business goals.
                         </p>
                         <div className='local-scroll'>
-                            <a href='/contact' className='btn btn-mod btn-medium btn-grad btn-round' data-btn-animate='y'>
-                                Contact us <i className='mi-arrow-right size-24 align-center' />
+                            <a
+                                href='https://calendly.com/mibugo-consulting/30min'
+                                className='btn btn-mod btn-medium btn-grad btn-round'
+                                data-btn-animate='y'
+                            >
+                                Let’s Talk Strategy
+                                <i className='mi-arrow-right size-24 align-center' />
                             </a>
                         </div>
                     </div>
                     <div className='col-md-7 offset-md-1'>
                         <div className='row mt-n30'>
                             {/* Footer Widget */}
-                            <div className='col-sm-4 mt-30'>
+                            <div className='col-sm-7 mt-30'>
                                 {/* <h3 className='fw-title'>Company</h3> */}
                                 <ul className='fw-menu clearlist local-scroll'>
                                     {navigationLinks.map((elm, i) => (
@@ -34,20 +39,19 @@ export default function Footer7() {
                             </div>
                             {/* End Footer Widget */}
                             {/* Footer Widget */}
-                            <div className='col-sm-4 mt-30'>
-                                {/* <h3 className='fw-title'>Social Media</h3> */}
+                            {/* <div className='col-sm-4 mt-30'>
                                 <ul className='fw-menu clearlist'>
                                     <FooterSocials />
                                 </ul>
-                            </div>
+                            </div> */}
                             {/* End Footer Widget */}
                             {/* Footer Widget */}
-                            <div className='col-sm-4 mt-30'>
+                            <div className='col-sm-5 mt-30'>
                                 {/* <h3 className='fw-title'>Legal &amp; Press</h3> */}
                                 <ul className='fw-menu clearlist'>
                                     {footerLinks.map((elm, i) => (
                                         <li key={i}>
-                                            <a href={elm.path}>{elm.name}</a>
+                                            <a href={elm.href}>{elm.name}</a>
                                         </li>
                                     ))}
                                 </ul>
@@ -59,7 +63,7 @@ export default function Footer7() {
                 {/* Footer Text */}
                 <div className='row text-gray'>
                     <div className='col-md-4 col-lg-3'>
-                        <b>© Mibugo Consulting {new Date().getFullYear()}</b>
+                        <b>© {new Date().getFullYear()} Mibugo Consulting. All rights reserved.</b>
                     </div>
                     <div className='col-md-7 offset-md-1 offset-lg-2 clearfix'>
                         {/* <b>Based in London, United Kingdom.</b> */}

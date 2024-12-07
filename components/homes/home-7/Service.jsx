@@ -25,16 +25,6 @@ export default function Service() {
             <div className='row wow fadeInUp'>
                 <section id='blog'>
                     <div className='container position-relative' style={{ marginTop: "50px" }}>
-                        {/* <div className='row mb-60 mb-xs-30'>
-                            <div className='col-md-6'>
-                                <h2 className='section-caption mb-xs-10'>Our Blog</h2>
-                                <h3 className='section-title mb-0'>
-                                    <span className='wow charsAnimIn' data-splitting='chars'>
-                                        The latest news
-                                    </span>
-                                </h3>
-                            </div>
-                        </div> */}
                         <Blog />
                     </div>
                 </section>

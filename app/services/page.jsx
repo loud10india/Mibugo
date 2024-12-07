@@ -4,6 +4,8 @@ import Cta3 from "@/components/homes/home-7/Cta3";
 import Service from "@/components/homes/home-7/Service";
 import Testimonials from "@/components/homes/home-7/Testimonials";
 import { features5 } from "@/data/features";
+import Header1Multipage from "@/components/headers/Header1Multipage";
+import { menuItems } from "@/data/menu";
 
 import { gradientMultipage } from "@/data/menu";
 import { progressData } from "@/data/skills";
@@ -21,8 +23,11 @@ export default function GradientServicesPage() {
         <>
             <div className='theme-gradient'>
                 <div className='page' id='top'>
-                    <nav className='main-nav transparent stick-fixed wow-menubar wch-unset'>
-                        <Header7 links={gradientMultipage} />
+                    {/* <nav className='main-nav transparent stick-fixed wow-menubar'>
+                        <Header1Multipage links={menuItems} />
+                    </nav> */}
+                    <nav className='main-nav transparent stick-fixed wow-menubar'>
+                        <Header7 links={menuItems} />
                     </nav>
                     <main id='main'>
                         <section className='page-section bg-gradient-gray-light-1 bg-scroll overflow-hidden'>

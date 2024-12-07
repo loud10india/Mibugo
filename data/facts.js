@@ -47,13 +47,13 @@ export const numberItems3 = [
     },
     {
         id: 2,
-        number: "50+",
+        number: "40+",
         descr: "Businesses transformed with our expert consulting in various industries.",
         offset: "offset-lg-2",
     },
     {
         id: 3,
-        number: "40+",
+        number: "50+",
         descr: "Successful projects completed, ensuring client satisfaction and growth.",
         offset: "",
     },
