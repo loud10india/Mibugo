@@ -118,7 +118,7 @@ export default function Marketing() {
                                                     <svg
                                                         width={24}
                                                         height={24}
-                                                        viewBox='0 0 24 24'
+                                                        viewBox='0 0 60 60'
                                                         fill='currentColor'
                                                         aria-hidden='true'
                                                         focusable='false'

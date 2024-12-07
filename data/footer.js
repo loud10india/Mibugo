@@ -1,8 +1,8 @@
 export const footerLinks = [
     { name: "About Us", href: "/about" },
     { name: "Contact Us", href: "/contact" },
-    { name: "Privacy Policy", href: "#" },
-    { name: "Terms & Conditions", href: "#" },
+    { name: "Privacy Policy", href: "privacyandpolicy" },
+    { name: "Terms & Conditions", href: "termsandconditions" },
     { name: "LinkedIn", href: "https://www.linkedin.com/company/mibugo" },
 ];
 
@@ -51,9 +51,9 @@ export const socialMediaLinks = [
 ];
 
 export const navigationLinks = [
-    { href: "#", text: "Comprehensive Business Strategy" },
-    { href: "#", text: "People Management & Development" },
-    { href: "#", text: "Targeted Marketing Solutions" },
-    { href: "#", text: "Streamlined Process Improvement" },
-    { href: "#", text: "Profit Maximization Strategies" },
+    { href: "/services/strategy", text: "Comprehensive Business Strategy" },
+    { href: "/services/people", text: "People Management & Development" },
+    { href: "/services/marketing", text: "Targeted Marketing Solutions" },
+    { href: "/services/process", text: "Streamlined Process Improvement" },
+    { href: "/services/profit", text: "Profit Maximization Strategies" },
 ];
