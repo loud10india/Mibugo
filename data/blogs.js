@@ -2,7 +2,7 @@ export const blogs1 = [
     {
         id: 1,
         delay: "0.1s",
-        imgSrc: "/assets/images/blog/Strategy.jpg",
+        imgSrc: "/assets/images/blog/Strategy 2.jpg",
         title: "Strategy",
         text: "We develop clear, results-driven strategies that guide your business toward sustainable growth. From market analysis to strategic planning, we help you create a roadmap for success, tailored to your unique business needs.",
         // authorName: "Adam Smith",
@@ -11,7 +11,7 @@ export const blogs1 = [
     {
         id: 2,
         delay: "0.2s",
-        imgSrc: "/assets/images/blog/People.jpg",
+        imgSrc: "/assets/images/blog/People2.jpg",
         title: "People",
         text: "Building strong, motivated teams is essential for success. We offer HR consulting and team-building services to attract, retain, and develop talent. Our focus is on creating a positive work culture that drives productivity and loyalty.",
         // authorName: "Emma Kandel",
@@ -19,7 +19,7 @@ export const blogs1 = [
     {
         id: 3,
         delay: "0.3s",
-        imgSrc: "/assets/images/blog/Marketing.jpg",
+        imgSrc: "/assets/images/blog/Marketing 2.jpg",
         title: "Marketing",
         text: "Elevate your brand with customized marketing solutions that connect you with your target audience. From brand development to campaign management, our marketing strategies are designed to drive engagement and increase visibility.",
 
@@ -28,7 +28,7 @@ export const blogs1 = [
     {
         id: 4,
         delay: "0.3s",
-        imgSrc: "/assets/images/blog/Process.jpg",
+        imgSrc: "/assets/images/blog/Process 2.jpg",
         title: "Process",
         text: "Streamline your business operations for maximum efficiency. We analyze and optimize processes to reduce costs, improve productivity, and enhance overall performance, ensuring your business runs smoothly.",
 
@@ -37,7 +37,7 @@ export const blogs1 = [
     {
         id: 5,
         delay: "0.3s",
-        imgSrc: "/assets/images/blog/Profit.jpg",
+        imgSrc: "/assets/images/blog/Profit 2.jpg",
         title: "Profit",
         text: "Our financial consulting services focus on enhancing profitability and financial stability. We provide insights to improve cash flow, manage expenses, and maximize returns, guiding you towards sustained financial growth.",
         authorImg: "/assets/images/blog/author/author-3.jpg",
