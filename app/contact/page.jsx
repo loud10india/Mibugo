@@ -6,7 +6,7 @@ import Header7 from "@/components/headers/Header7";
 import Contact from "@/components/homes/home-7/Contact";
 import { menuItems } from "@/data/menu";
 
-import { gradientMultipage } from "@/data/menu";
+// import { gradientMultipage } from "@/data/menu";
 import Image from "next/image";
 import Link from "next/link";
 const onePage = false;

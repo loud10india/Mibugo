@@ -7,7 +7,7 @@ import { features5 } from "@/data/features";
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import { menuItems } from "@/data/menu";
 
-import { gradientMultipage } from "@/data/menu";
+// import { gradientMultipage } from "@/data/menu";
 import { progressData } from "@/data/skills";
 import Image from "next/image";
 import Link from "next/link";

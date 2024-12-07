@@ -4,7 +4,7 @@ import Footer7 from "@/components/footers/Footer7";
 import Header7 from "@/components/headers/Header7";
 import { teamMembers } from "@/data/team";
 import { useState } from "react";
-import { gradientMultipage } from "@/data/menu";
+// import { gradientMultipage } from "@/data/menu";
 import Image from "next/image";
 import Faq from "@/components/common/Faq";
 import Header1Multipage from "@/components/headers/Header1Multipage";
