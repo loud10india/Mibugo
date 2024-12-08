@@ -47,19 +47,15 @@ export default function Nav2({ links }) {
                                 {item.title} <i className='mi-chevron-down' />
                             </a>
                             <ul className={`mn-sub ${menuOpen[0] === index ? "mobile-sub-active" : ""}`}>
-                                {item.subMenu.map((sub, subIndex) => (
-                                    <li key={subIndex}>
-                                        <ul>
-                                            {sub.links.map((link, linkIndex) => (
-                                                <li key={linkIndex}>
-                                                    <Link className={pathname.includes(link.href) ? "active" : ""} href={link.href}>
-                                                        {link.text}
-                                                    </Link>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </li>
-                                ))}
+                                {item.subMenu.map((sub, subIndex) =>
+                                    sub.links.map((link, linkIndex) => (
+                                        <li key={linkIndex}>
+                                            <Link className={pathname.includes(link.href) ? "active" : ""} href={link.href}>
+                                                {link.text}
+                                            </Link>
+                                        </li>
+                                    ))
+                                )}
                             </ul>
                         </>
                     ) : (

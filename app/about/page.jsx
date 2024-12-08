@@ -7,17 +7,11 @@ import { useState } from "react";
 // import { gradientMultipage } from "@/data/menu";
 import Image from "next/image";
 import Faq from "@/components/common/Faq";
-import Header1Multipage from "@/components/headers/Header1Multipage";
+// import Header1Multipage from "@/components/headers/Header1Multipage";
 import { menuItems } from "@/data/menu";
 
 const onePage = false;
 const dark = false;
-
-// export const metadata = {
-//     title: "Mibugo Consulting - Unlock Your Business Potential",
-//     description:
-//         "Unleash your business's true potential with Mibugo Consulting, one of India's leading boutique consulting firms, dedicated to driving growth and innovation for SMEs and startups.",
-// };
 
 export default function GradientAboutPage() {
     const [activeMember, setActiveMember] = useState(null); // Track the active member's modal
