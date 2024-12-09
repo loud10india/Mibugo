@@ -47,7 +47,7 @@ export async function POST(req) {
         if (info.rejected.length > 0) {
             return NextResponse.json({ error: "Email sending failed, try again later" }, { status: 500 });
         } else {
-            return NextResponse.json({ message: "Email sent successfully" }, { status: 200 });
+            return NextResponse.json({ message: "Thanks for your message! We'll connect soon." }, { status: 200 });
         }
     } catch (error) {
         return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });

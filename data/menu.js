@@ -8,7 +8,7 @@ export const menuItems = [
         href: "/about",
     },
     {
-        title: "Services",
+        title: "Business Consulting Services",
         subMenu: [
             {
                 links: [

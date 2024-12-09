@@ -176,7 +176,7 @@ export default function Strategy() {
                                         data-wow-delay={item.dataWowDelay}
                                     >
                                         <div className='features-2-item pt-sm-40 pb-sm-40'>
-                                            {/* <div className='features-2-label'>{item.label}</div> */}
+                                            <div className='features-2-label'>{item.label}</div>
                                             <div className='features-2-icon'>
                                                 <svg
                                                     xmlns='http://www.w3.org/2000/svg'
@@ -270,9 +270,9 @@ export default function Strategy() {
                                             <div className='col-md-8 text-center text-md-start mb-sm-20 d-md-flex'>
                                                 <div className='flex-shrink-0 me-md-4 pe-md-1 mb-sm-20'>
                                                     <Image
-                                                        src='/assets/images/demo-gradient/mibugo-logo.svg'
-                                                        width='200'
-                                                        height='200'
+                                                        src='/assets/images/demo-gradient/mibugo-icon.png'
+                                                        width='90'
+                                                        height='90'
                                                         alt='Image Description'
                                                     />
                                                 </div>

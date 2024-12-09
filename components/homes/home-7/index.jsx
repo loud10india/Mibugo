@@ -125,7 +125,7 @@ export default function Home7({ onePage = false, dark = false }) {
                     </div>
                     <div className='row'>
                         <div className='col-lg-8 offset-lg-2 text-center'>
-                            <p className='text-gray mb-40 mb-sm-30'>
+                            <p className='text-gray '>
                                 Ready to take your business to the next level? Let us provide the strategic insight and guidance you need to fuel
                                 sustainable growth. Contact us today for a free consultation!
                             </p>
@@ -134,19 +134,16 @@ export default function Home7({ onePage = false, dark = false }) {
                 </div>
             </section>
             <section className={`page-section  scrollSpysection   ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='col-lg-8 offset-lg-2 text-center'>
                         <h2 className='section-caption-gradient mb-20 mb-xs-10'>Contact US</h2>
                         <div className='section-line-gradient mx-auto mb-20' />
-                        {/* <h3 className='section-title mb-40 mb-sm-30'>
-                        
-                        </h3> */}
                         <p className='text-gray mb-80 mb-sm-60'>
                             Your journey toward success begins with a simple message. Connect with us to explore how our consulting services can
                             transform your business. We're ready to support your growth every step of the way.
                         </p>
                     </div>
-                </div>
+                </div> */}
                 <Contact />
             </section>
         </>

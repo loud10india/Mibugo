@@ -30,7 +30,7 @@ export const teamMembers = [
         text: "Shweta Mehta is Mibugo Consulting’s People Strategy Consultant, leveraging her entrepreneurial background as the founder of MYLIVEYE, a leading surveillance service provider in the USA. With over 12 years of industry experience, she specializes in workforce optimization and leadership development. Shweta is committed to fostering a collaborative and inclusive work culture that drives productivity and innovation. She brings a deep understanding of global business dynamics and a passion for empowering teams to excel in competitive environments.",
     },
     {
-        name: "Anand Kumar",
+        name: "Anand Tiwari",
         role: "Consultant - Financial Strategy ",
         image: "/assets/images/team/Anand Kumar.jpg",
         text: "Anand Kumar is Mibugo Consulting’s Financial Strategy Consultant, bringing over 15 years of professional experience as an FCA and Information Systems Auditor. His work spans industries like telecom, manufacturing, and hospitality, with expertise in direct tax litigation, financial audits, and sustainability assessments. Anand has been instrumental in shaping financial strategies that ensure compliance and profitability for businesses. His commitment to precision and ethical practices positions him as a trusted advisor in navigating complex financial landscapes.",

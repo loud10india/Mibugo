@@ -89,6 +89,7 @@ export default function GradientAboutPage() {
                                         </div>
                                     ))}
                                 </div>
+                                <hr className='mb-0 mt-80 mt-sm-40' />
                             </div>
                         </section>
 

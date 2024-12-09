@@ -1,9 +1,9 @@
 export const footerLinks = [
     { name: "About Us", href: "/about" },
     { name: "Contact Us", href: "/contact" },
-    { name: "Privacy Policy", href: "privacyandpolicy" },
-    { name: "Terms & Conditions", href: "termsandconditions" },
-    { name: "LinkedIn", href: "https://www.linkedin.com/company/mibugo" },
+    { name: "Privacy Policy", href: "/privacy" },
+    { name: "Terms & Conditions", href: "/terms" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/company/mibugo", external: true },
 ];
 
 export const footerLinks2 = [

@@ -46,12 +46,27 @@ export default function Footer7() {
                             </div> */}
                             {/* End Footer Widget */}
                             {/* Footer Widget */}
+                            {/* <div className='col-sm-5 mt-30'>
+                                <ul className='fw-menu clearlist'>
+                                    {footerLinks.map((elm, i) => (
+                                        <li key={i}>
+                                            <a href={elm.href}>{elm.name}</a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div> */}
                             <div className='col-sm-5 mt-30'>
                                 {/* <h3 className='fw-title'>Legal &amp; Press</h3> */}
                                 <ul className='fw-menu clearlist'>
                                     {footerLinks.map((elm, i) => (
                                         <li key={i}>
-                                            <a href={elm.href}>{elm.name}</a>
+                                            <a
+                                                href={elm.href}
+                                                target={elm.external ? "_blank" : "_self"}
+                                                rel={elm.external ? "noopener noreferrer" : undefined}
+                                            >
+                                                {elm.name}
+                                            </a>
                                         </li>
                                     ))}
                                 </ul>
@@ -62,7 +77,7 @@ export default function Footer7() {
                 </div>
                 {/* Footer Text */}
                 <div className='row text-gray'>
-                    <div className='col-md-4 col-lg-3'>
+                    <div className='col-md-5 col-lg-3'>
                         <b>© {new Date().getFullYear()} Mibugo Consulting. All rights reserved.</b>
                     </div>
                     <div className='col-md-7 offset-md-1 offset-lg-2 clearfix'>

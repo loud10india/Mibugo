@@ -14,14 +14,14 @@ export default function Header7({ links }) {
         <div className='main-nav-sub container'>
             <div className='nav-logo-wrap position-static pe-lg-4 me-lg-5 local-scroll'>
                 <a href='#top' className='logo'>
-                    <Image src='/assets/images/demo-gradient/logo.svg' alt='Your Company Logo' width={200} height={200} className='light-mode-logo' />
                     <Image
-                        src='/assets/images/demo-gradient/logo-white.png'
+                        src='/assets/images/demo-gradient/Logo-H.png'
                         alt='Your Company Logo'
-                        width={160}
-                        height={80}
-                        className='dark-mode-logo'
+                        width={200}
+                        height={200}
+                        className='light-mode-logo'
                     />
+                    <Image src='/assets/images/demo-gradient/Logo-H.png' alt='Your Company Logo' width={160} height={80} className='dark-mode-logo' />
                 </a>
             </div>
             {/* Mobile Menu Button */}

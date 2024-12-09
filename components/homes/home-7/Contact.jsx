@@ -99,9 +99,7 @@ export default function Contact() {
                     <div className='bg-gradient-light-2 round overflow-hidden w-100 px-4 py-5 p-sm-5'>
                         <div className='row'>
                             <div className='col-md-10 offset-md-1 col-xl-8 offset-xl-2'>
-                                <h4 className='section-descr-medium mt-n10 mb-30 text-center'>
-                                    Drop us a line to get your next project started. We'd love to hear from you.
-                                </h4>
+                                <h4 className='section-descr-medium mt-n10 mb-30 text-center'>Let's grow your business-contact us today!</h4>
                             </div>
                         </div>
                         {/* Contact Form */}
@@ -192,8 +190,10 @@ export default function Contact() {
                                     {/* Inform Tip */}
                                     <div className='form-tip w-100 pt-3'>
                                         <i className='icon-info size-16' />
-                                        All the fields are required. By sending the form you agree to the{" "}
-                                        <a href='termsandconditions'>Terms &amp; Conditions</a> and <a href='privacyandpolicy'>Privacy Policy</a>.
+                                        All the fields are required. By sending the form you agree to the <a href='/terms'>
+                                            Terms &amp; Conditions
+                                        </a>{" "}
+                                        and <a href='/privacy'>Privacy Policy</a>.
                                     </div>
                                     {/* End Inform Tip */}
                                 </div>

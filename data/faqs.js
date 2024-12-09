@@ -113,6 +113,51 @@ export const faqDataMain4 = [
     },
 ];
 
+export const faqDataMain5 = [
+    {
+        id: 1,
+        question: "Tailored for Your Industry",
+        answer: "Whether you run a service- or product-based company, we understand your unique challenges and deliver targeted solutions.",
+    },
+    {
+        id: 2,
+        question: "Enhanced Productivity",
+        answer: "Our strategies eliminate delays and create systems that maximize your team’s efficiency.",
+    },
+    {
+        id: 3,
+        question: "Scalable Results",
+        answer: "We design solutions that grow with your business, ensuring ongoing success.",
+    },
+    {
+        id: 4,
+        question: "End-to-End Support",
+        answer: "From initial analysis to full implementation, we’re with you every step of the way.",
+    },
+];
+
+export const faqDataMain6 = [
+    {
+        id: 1,
+        question: "Customized Strategies",
+        answer: "Our solutions are uniquely tailored to fit the specific needs and challenges of your business, delivering measurable outcomes.",
+    },
+    {
+        id: 2,
+        question: "Focus on Sustainability",
+        answer: "We emphasize long-term profitability, ensuring your business continues to thrive as market conditions change.",
+    },
+    {
+        id: 3,
+        question: "Expert Financial Insights",
+        answer: "With a data-driven approach, we provide the tools and guidance needed to make informed, profit-boosting decisions.",
+    },
+    {
+        id: 4,
+        question: "Hands-On Implementation",
+        answer: "Our team works closely with you, providing practical support and ongoing adjustments to ensure optimal results.",
+    },
+];
 export const faqs3 = [
     {
         question: "Our Story",
