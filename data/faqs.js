@@ -67,6 +67,52 @@ export const faqDataMain2 = [
     },
 ];
 
+export const faqDataMain3 = [
+    {
+        id: 1,
+        question: "Tailored Strategies",
+        answer: "We don’t believe in one-size-fits-all solutions. Every business is unique, and our strategies are designed to align with your specific goals, ensuring impactful and relevant outcomes.",
+    },
+    {
+        id: 2,
+        question: "Sustainable Growth Focus",
+        answer: "Our approach prioritizes long-term growth by creating strategies that are adaptable and scalable. We help you establish a strong foundation that supports ongoing success as your business evolves.",
+    },
+    {
+        id: 3,
+        question: "Startup & SME Specialization",
+        answer: "We understand the distinct challenges faced by smaller organizations. From managing limited resources to scaling effectively, our solutions are crafted to support you at every stage of growth, ensuring measurable success.",
+    },
+    {
+        id: 4,
+        question: "Hands-On Support",
+        answer: "Our team works closely with you throughout the process, offering guidance, tools, and actionable steps to implement strategies successfully. You’ll never feel left alone in achieving your business objectives.",
+    },
+];
+
+export const faqDataMain4 = [
+    {
+        id: 1,
+        question: "Targeted Reach",
+        answer: "Our approach ensures your marketing efforts are focused on the most relevant audiences for your business, maximizing ROI.",
+    },
+    {
+        id: 2,
+        question: "Data-Driven Results",
+        answer: "We rely on analytics to refine strategies and optimize campaigns, ensuring effectiveness at every step.",
+    },
+    {
+        id: 3,
+        question: "Multi-Channel Expertise",
+        answer: "From digital marketing to traditional methods, we use a mix of channels to reach your audience wherever they are.",
+    },
+    {
+        id: 4,
+        question: "Scalable Solutions",
+        answer: "As your business grows, our marketing solutions evolve with you, helping you reach new heights.",
+    },
+];
+
 export const faqs3 = [
     {
         question: "Our Story",
@@ -74,7 +120,7 @@ export const faqs3 = [
             condimentum, mauris a bibendum cursus, risus quam venenatis ipsum,
             in facilisis tellus lacus ac augue. Fusce placerat condimentum
             luctus. Pellentesque venenatis lacus eu ex sollicitudin maximus.
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            Class aptent taciti sociosqu ad litora torquent per conuba nostra,
             per inceptos himenaeos. Vestibulum rhoncus eros vitae enim lobortis
             cursus. Suspendisse potenti. Ut sed tortor ut dolor consequat congue
             a lacinia ante. Phasellus vel urna eu lacus luctus luctus vitae quis`,

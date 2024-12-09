@@ -18,7 +18,7 @@ export const metadata = {
     description:
         "Unleash your business's true potential with Mibugo Consulting, one of India's leading boutique consulting firms, dedicated to driving growth and innovation for SMEs and startups.",
 };
-export default function Marketing() {
+export default function People() {
     return (
         <>
             <div className='theme-gradient'>
@@ -49,26 +49,26 @@ export default function Marketing() {
                                 </div>
                             </div>
                         </section>
-                        <section
-                            className={`page-section scrollSpysection bg-scroll ${dark ? "bg-dark-1 bg-gradient-gray-dark-2 light-content" : ""}`}
-                            id='about'
-                        >
-                            <div className='row container'>
-                                <div className='col-lg-4 '>
-                                    <div className='lead-alt wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
-                                        Struggling to build and retain a great team?
+                        <section className='page-section pt-80' id='team'>
+                            <div className='container'>
+                                <div className='row'>
+                                    <div className='col-lg-5 mb-md-50 mb-xs-30'>
+                                        <div className='lead-alt wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
+                                            Struggling to build and retain a great team?
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-7 wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
+                                        <p className='mb-0'>
+                                            At Mibugo Consulting, we know that managing people effectively is one of the toughest challenges for
+                                            business owners. Our <b>People Management & Development Consulting</b> service helps startups and SMEs
+                                            transform their workforce into a high-performing, motivated, and aligned team.
+                                        </p>
                                     </div>
                                 </div>
-                                <div className='col-lg-8 wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
-                                    <p className='mb-0'>
-                                        At Mibugo Consulting, we know that managing people effectively is one of the toughest challenges for business
-                                        owners. Our People Management & Development Consulting service helps startups and SMEs transform their
-                                        workforce into a high-performing, motivated, and aligned team.
-                                    </p>
-                                </div>
+                                <hr className='mb-0 mt-80 mt-sm-40' />
                             </div>
                         </section>
-                        <hr className='mt-0 mb-20 mb-sm-10' />
+
                         <section className='page-section'>
                             <div className='container position-relative'>
                                 <div className='row'>

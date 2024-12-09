@@ -47,27 +47,26 @@ export default function GradientAboutPage() {
                         </section>
 
                         {/* About Section */}
-                        <section
-                            className={`page-section scrollSpysection bg-scroll ${dark ? "bg-dark-1 bg-gradient-gray-dark-2 light-content" : ""}`}
-                            id='about'
-                        >
-                            <div className='row container'>
-                                <div className='col-lg-4 '>
-                                    <div className='lead-alt wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
-                                        Our mission is delivering innovative strategies for business growth.
+                        <section className='page-section pt-80' id='team'>
+                            <div className='container'>
+                                <div className='row'>
+                                    <div className='col-lg-5 mb-md-50 mb-xs-30'>
+                                        <div className='lead-alt wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
+                                            Our mission is delivering innovative strategies for business growth.
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-7 wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
+                                        <p className='mb-0'>
+                                            At Mibugo Consulting, our team is the backbone of your business transformation. Comprising experts from
+                                            diverse fields, we bring strategic insights, innovative solutions, and a shared commitment to your
+                                            success. Together, we are passionate about helping SMEs and startups overcome challenges, seize
+                                            opportunities, and achieve sustainable growth. Meet the people who make it happen!
+                                        </p>
                                     </div>
                                 </div>
-                                <div className='col-lg-8 wow linesAnimIn' data-wow-offset={0} data-splitting='lines'>
-                                    <p className='mb-0'>
-                                        At Mibugo Consulting, our team is the backbone of your business transformation. Comprising experts from
-                                        diverse fields, we bring strategic insights, innovative solutions, and a shared commitment to your success.
-                                        Together, we are passionate about helping SMEs and startups overcome challenges, seize opportunities, and
-                                        achieve sustainable growth. Meet the people who make it happen!
-                                    </p>
-                                </div>
+                                <hr className='mb-0 mt-80 mt-sm-40' />
                             </div>
                         </section>
-                        <hr className='mt-0 mb-20 mb-sm-10' />
 
                         {/* Team Section */}
                         <section className='page-section' id='team'>
