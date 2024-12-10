@@ -6,7 +6,6 @@ import "react-modal-video/css/modal-video.css";
 import "photoswipe/dist/photoswipe.css";
 import { parallaxMouseMovement, parallaxScroll } from "@/utlis/parallax";
 import { MainLayout } from "@/components/layout/mainLayout/main.layout";
-<link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />;
 import "tippy.js/dist/tippy.css";
 import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
@@ -21,6 +20,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang='en' className='no-mobile no-touch'>
             <head>
+                <link rel='stylesheet' href='favicon.ico' />
                 <link href='https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap' rel='stylesheet' />
                 <link href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap' rel='stylesheet' />
                 <link href='https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&family=Poppins&display=swap' rel='stylesheet' />
