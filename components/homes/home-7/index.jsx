@@ -99,17 +99,33 @@ export default function Home7({ onePage = false, dark = false }) {
             </section>
             <section className={`page-section scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""}`} id='services'>
                 <Service />
-            </section>
-            <section className={`page-section scrollSpysection  overflow-hidden  ${dark ? "bg-dark-1 light-content" : ""}`} id='portfolio'>
-                <div className='container position-relative'>
-                    <div className='row'>
-                        <div className='col-lg-8 offset-lg-2 text-center'>
-                            {/* <h2 className="section-caption-gradient mb-20 mb-xs-10">
-                Our Portfolio
-              </h2> */}
-                            {/* <div className="section-line-gradient mx-auto mb-20" /> */}
-                        </div>
+                <div className='text-center mt-140 mt-md-70'>
+                    <h3 className='section-title-repeat '>
+                        <span className='section-title-repeat-left' aria-hidden='true'>
+                            Unlock Growth
+                        </span>
+                        <span className='section-title-repeat-right' aria-hidden='true'>
+                            Unlock Growth
+                        </span>
+                        <span className='wow charsAnimInLong-1' data-splitting='chars'>
+                            <AnimatedText text='Unlock Growth' />
+                        </span>
+                    </h3>
+                </div>
+                <div className='row mb-140 mb-md-70'>
+                    <div className='col-lg-8 offset-lg-2 text-center'>
+                        <p className='text-gray '>
+                            Ready to take your business to the next level? Let us provide the strategic insight and guidance you need to fuel
+                            sustainable growth. Contact us today for a free consultation!
+                        </p>
                     </div>
+                </div>
+                <div>
+                    <Contact />
+                </div>
+            </section>
+            {/* <section className={`page-section scrollSpysection  overflow-hidden  ${dark ? "bg-dark-1 light-content" : ""}`} id='portfolio'>
+                <div className='container position-relative'>
                     <div className='text-center'>
                         <h3 className='section-title-repeat '>
                             <span className='section-title-repeat-left' aria-hidden='true'>
@@ -132,20 +148,10 @@ export default function Home7({ onePage = false, dark = false }) {
                         </div>
                     </div>
                 </div>
-            </section>
-            <section className={`page-section  scrollSpysection   ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
-                {/* <div className='row'>
-                    <div className='col-lg-8 offset-lg-2 text-center'>
-                        <h2 className='section-caption-gradient mb-20 mb-xs-10'>Contact US</h2>
-                        <div className='section-line-gradient mx-auto mb-20' />
-                        <p className='text-gray mb-80 mb-sm-60'>
-                            Your journey toward success begins with a simple message. Connect with us to explore how our consulting services can
-                            transform your business. We're ready to support your growth every step of the way.
-                        </p>
-                    </div>
-                </div> */}
+            </section> */}
+            {/* <section className={`page-section  scrollSpysection   ${dark ? "bg-dark-1 light-content" : ""}`} id='contact'>
                 <Contact />
-            </section>
+            </section> */}
         </>
     );
 }

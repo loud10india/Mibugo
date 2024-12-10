@@ -49,7 +49,7 @@ export default function Strategy() {
                                 </div>
                             </div>
                         </section>
-                        <section className='page-section pt-80' id='team'>
+                        <section className='page-section pt-80 mt-80 mt-sm-40' id='team'>
                             <div className='container'>
                                 <div className='row'>
                                     <div className='col-lg-5 mb-md-50 mb-xs-30'>
@@ -69,7 +69,7 @@ export default function Strategy() {
                             </div>
                         </section>
 
-                        <section className='page-section'>
+                        <section className='page-section mb-80 mb-md-80'>
                             <div className='container position-relative'>
                                 <div className='row'>
                                     {/* Section Text */}
@@ -102,15 +102,6 @@ export default function Strategy() {
                                         </div>
                                     </div>
                                     {/* End Image Column */}
-                                </div>
-                            </div>
-                        </section>
-
-                        <section className='page-section z-index-1'>
-                            <div className='container position-relative'>
-                                {/* Features Grid */}
-                                <div className='row mt-n30 wow fadeInUp'>
-                                    {/* Feature Item */}
                                     {features6.map((elm, i) => (
                                         <div key={i} className='col-sm-6 col-xl-3 d-flex align-items-stretch'>
                                             <div className='alt-features-item box-shadow text-center mt-30'>
@@ -134,13 +125,39 @@ export default function Strategy() {
                                             </div>
                                         </div>
                                     ))}
-                                    {/* End Feature Item */}
-
-                                    {/* End Feature Item */}
                                 </div>
-                                {/* End Features Grid */}
                             </div>
                         </section>
+
+                        {/* <section className='page-section z-index-1'>
+                            <div className='container position-relative'>
+                                <div className='row  wow fadeInUp'>
+                                    {features6.map((elm, i) => (
+                                        <div key={i} className='col-sm-6 col-xl-3 d-flex align-items-stretch'>
+                                            <div className='alt-features-item box-shadow text-center mt-30'>
+                                                <div className='alt-features-icon mb-10 '>
+                                                    <svg
+                                                        width={24}
+                                                        height={24}
+                                                        viewBox='0 0 60 60'
+                                                        fill='currentColor'
+                                                        aria-hidden='true'
+                                                        focusable='false'
+                                                        xmlns='http://www.w3.org/2000/svg'
+                                                        fillRule='evenodd'
+                                                        clipRule='evenodd'
+                                                    >
+                                                        <path d={elm.svgPath} />
+                                                    </svg>
+                                                </div>
+                                                <h4 className='alt-features-title'>{elm.title}</h4>
+                                                <div className='alt-features-descr'>{elm.description}</div>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </section> */}
 
                         <div className='container position-relative'>
                             <div className='row mb-80 mb-sm-60'>

@@ -6,7 +6,7 @@ import "react-modal-video/css/modal-video.css";
 import "photoswipe/dist/photoswipe.css";
 import { parallaxMouseMovement, parallaxScroll } from "@/utlis/parallax";
 import { MainLayout } from "@/components/layout/mainLayout/main.layout";
-
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />;
 import "tippy.js/dist/tippy.css";
 import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";

@@ -47,7 +47,7 @@ export default function GradientAboutPage() {
                         </section>
 
                         {/* About Section */}
-                        <section className='page-section pt-80' id='team'>
+                        <section className='page-section pt-80 mt-80 mt-sm-40' id='team'>
                             <div className='container'>
                                 <div className='row'>
                                     <div className='col-lg-5 mb-md-50 mb-xs-30'>
@@ -64,15 +64,8 @@ export default function GradientAboutPage() {
                                         </p>
                                     </div>
                                 </div>
-                                <hr className='mb-0 mt-80 mt-sm-40' />
-                            </div>
-                        </section>
-
-                        {/* Team Section */}
-                        <section className='page-section' id='team'>
-                            <div className='container'>
-                                <div className='row position-relative mt-n40 wow fadeInUp' data-wow-delay='0.1s'>
-                                    {/* Team items */}
+                                <hr className='mb-0 mt-90 mt-sm-45' />
+                                <div className='row position-relative mt-n40 wow fadeInUp mt-90 mt-sm-45' data-wow-delay='0.1s'>
                                     {teamMembers.map((member, index) => (
                                         <div key={index} className='col-sm-6 col-lg-4 mt-40'>
                                             <a onClick={() => setActiveMember(member)}>
@@ -89,12 +82,60 @@ export default function GradientAboutPage() {
                                         </div>
                                     ))}
                                 </div>
-                                <hr className='mb-0 mt-80 mt-sm-40' />
+                                <hr className='mb-0 mt-100 mt-sm-50' />
+                                {/* Modal for Active Member */}
+                                {activeMember && (
+                                    <div className='mfp-bg mfp-fade mfp-ready' onClick={() => setActiveMember(null)}>
+                                        <div
+                                            className='mfp-wrap mfp-gallery mfp-close-btn-in mfp-auto-cursor mfp-fade mfp-ready'
+                                            style={{ overflow: "hidden auto" }}
+                                        >
+                                            <div className='mfp-container mfp-s-ready mfp-inline-holder'>
+                                                <div className='mfp-content'>
+                                                    <div id='test-modal'>
+                                                        <h3>{activeMember.name}</h3>
+                                                        <p>{activeMember.text}</p>
+                                                        <button
+                                                            onClick={() => setActiveMember(null)}
+                                                            title='Close (Esc)'
+                                                            type='button'
+                                                            className='mfp-close'
+                                                        >
+                                                            ×<span className='visually-hidden'>Close</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div className='mfp-preloader'>Loading...</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                         </section>
 
-                        {/* Modal for Active Member */}
-                        {activeMember && (
+                        {/* <section className='page-section' id='team'>
+                            <div className='container'>
+                                <div className='row position-relative mt-n40 wow fadeInUp' data-wow-delay='0.1s'>
+                                    {teamMembers.map((member, index) => (
+                                        <div key={index} className='col-sm-6 col-lg-4 mt-40'>
+                                            <a onClick={() => setActiveMember(member)}>
+                                                <div className='team-item'>
+                                                    <div className='team-item-image'>
+                                                        <Image src={member.image} width={600} height={800} alt={member.name} />
+                                                    </div>
+                                                    <div className='team-item-descr'>
+                                                        <div className='team-item-name'>{member.name}</div>
+                                                        <div className='team-item-role'>{member.role}</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </section> */}
+
+                        {/* {activeMember && (
                             <div className='mfp-bg mfp-fade mfp-ready' onClick={() => setActiveMember(null)}>
                                 <div
                                     className='mfp-wrap mfp-gallery mfp-close-btn-in mfp-auto-cursor mfp-fade mfp-ready'
@@ -114,7 +155,7 @@ export default function GradientAboutPage() {
                                     </div>
                                 </div>
                             </div>
-                        )}
+                        )} */}
 
                         {/* <hr className='container mt-0 mb-80 mb-sm-40' /> */}
 
