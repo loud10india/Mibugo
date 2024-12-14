@@ -224,63 +224,28 @@ export default function Process() {
                         <section className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}>
                             <div className='container position-relative'>
                                 <div className='row'>
-                                    {/* Images */}
                                     <div className='col-lg-7 d-flex align-items-start mb-md-60 mb-xs-30'>
-                                        <div className='call-action-2-images'>
-                                            <div
-                                                className='call-action-2-image-1'
-                                                data-rellax-y=''
-                                                data-rellax-speed='0.5'
-                                                data-rellax-percentage='0.7'
-                                            >
+                                        <div className=''>
+                                            <div className='mt-30'>
                                                 <Image
-                                                    width={386}
-                                                    height={400}
-                                                    src='/assets/images/promo-3.jpg'
-                                                    alt='Image Description'
-                                                    className='wow scaleOutIn'
-                                                    data-wow-duration='1.2s'
-                                                    data-wow-offset={255}
-                                                />
-                                            </div>
-                                            <div className='call-action-2-image-2'>
-                                                <Image
-                                                    width={810}
-                                                    height={512}
-                                                    src='/assets/images/promo-4.jpg'
+                                                    width={650}
+                                                    height={550}
+                                                    src='/assets/images/Business Process Management.jpg'
                                                     alt='Image Description'
                                                     className='wow scaleOutIn'
                                                     data-wow-duration='1.2s'
                                                     data-wow-offset={134}
                                                 />
                                             </div>
-                                            <div
-                                                className='call-action-2-image-3'
-                                                data-rellax-y=''
-                                                data-rellax-speed='-0.5'
-                                                data-rellax-percentage='0.5'
-                                            >
-                                                <Image
-                                                    width={386}
-                                                    height={500}
-                                                    src='/assets/images/promo-5.jpg'
-                                                    alt='Image Description'
-                                                    className='wow scaleOutIn'
-                                                    data-wow-duration='1.2s'
-                                                    data-wow-offset={0}
-                                                />
-                                            </div>
                                         </div>
                                     </div>
-                                    {/* End Images */}
-                                    {/* Text */}
+
                                     <div className='col-lg-5 d-flex align-items-center'>
                                         <div className='wow fadeInUp' data-wow-duration='1.2s' data-wow-offset={255}>
                                             <h2 className='section-title mb-50 mb-sm-20'>Why Partner with Us?</h2>
                                             <Faq5 />
                                         </div>
                                     </div>
-                                    {/* End Text */}
                                 </div>
                             </div>
                         </section>

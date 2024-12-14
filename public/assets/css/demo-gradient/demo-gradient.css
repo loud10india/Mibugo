@@ -10,7 +10,7 @@
     --color-gray-1: #6f7780;
     --color-gray-2: #747f8c;
     --color-gray-3: #8a95a2;
-    --color-primary-1: #007b86;
+    --color-primary-1: #40c3d3;
     --color-primary-1: #ff8f00;
     --color-primary-1-a: #40c3d3;
     --color-primary-light-1: #e3effe;
@@ -81,8 +81,8 @@
 .theme-gradient .dark-mode {
     --color-primary-1: #ff8f00;
     --color-primary-2: #ff8f00;
-    --color-primary-3: #40c3d3;
-    --color-primary-4: #40c3d3;
+    --color-primary-3: #ff8f00;
+    --color-primary-4: #ff8f00;
     --gradient-primary-1: linear-gradient(
         90deg,
         var(--color-primary-4) 0%,

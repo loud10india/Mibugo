@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
     return (
         <html lang='en' className='no-mobile no-touch'>
             <head>
-                <link rel='stylesheet' href='favicon.ico' />
                 <link href='https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap' rel='stylesheet' />
                 <link href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap' rel='stylesheet' />
                 <link href='https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&family=Poppins&display=swap' rel='stylesheet' />
@@ -33,6 +32,7 @@ export default function RootLayout({ children }) {
                     href='https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap'
                     rel='stylesheet'
                 />
+                <link rel='icon' href='/favicon.ico' sizes='any' />
             </head>
             <body className='appear-animate body'>
                 <MainLayout>{children}</MainLayout>

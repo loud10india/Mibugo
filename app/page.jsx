@@ -7,6 +7,7 @@ import Hero1 from "@/components/homes/home-7/heros/Hero1";
 import Image from "next/image";
 import { menuItems } from "@/data/menu";
 import Header7 from "@/components/headers/Header7";
+import Link from "next/link";
 
 export const metadata = {
     title: "Mibugo Consulting - Unlock Your Business Potential",

@@ -129,36 +129,6 @@ export default function Strategy() {
                             </div>
                         </section>
 
-                        {/* <section className='page-section z-index-1'>
-                            <div className='container position-relative'>
-                                <div className='row  wow fadeInUp'>
-                                    {features6.map((elm, i) => (
-                                        <div key={i} className='col-sm-6 col-xl-3 d-flex align-items-stretch'>
-                                            <div className='alt-features-item box-shadow text-center mt-30'>
-                                                <div className='alt-features-icon mb-10 '>
-                                                    <svg
-                                                        width={24}
-                                                        height={24}
-                                                        viewBox='0 0 60 60'
-                                                        fill='currentColor'
-                                                        aria-hidden='true'
-                                                        focusable='false'
-                                                        xmlns='http://www.w3.org/2000/svg'
-                                                        fillRule='evenodd'
-                                                        clipRule='evenodd'
-                                                    >
-                                                        <path d={elm.svgPath} />
-                                                    </svg>
-                                                </div>
-                                                <h4 className='alt-features-title'>{elm.title}</h4>
-                                                <div className='alt-features-descr'>{elm.description}</div>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </section> */}
-
                         <div className='container position-relative'>
                             <div className='row mb-80 mb-sm-60'>
                                 <div className='col-md-8 col-lg-6'>
@@ -219,66 +189,32 @@ export default function Strategy() {
                         <section className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}>
                             <div className='container position-relative'>
                                 <div className='row'>
-                                    {/* Images */}
                                     <div className='col-lg-7 d-flex align-items-start mb-md-60 mb-xs-30'>
-                                        <div className='call-action-2-images'>
-                                            <div
-                                                className='call-action-2-image-1'
-                                                data-rellax-y=''
-                                                data-rellax-speed='0.5'
-                                                data-rellax-percentage='0.7'
-                                            >
+                                        <div className=''>
+                                            <div className='mt-30'>
                                                 <Image
-                                                    width={386}
-                                                    height={400}
-                                                    src='/assets/images/promo-3.jpg'
-                                                    alt='Image Description'
-                                                    className='wow scaleOutIn'
-                                                    data-wow-duration='1.2s'
-                                                    data-wow-offset={255}
-                                                />
-                                            </div>
-                                            <div className='call-action-2-image-2'>
-                                                <Image
-                                                    width={810}
-                                                    height={512}
-                                                    src='/assets/images/promo-4.jpg'
+                                                    width={650}
+                                                    height={550}
+                                                    src='/assets/images/Strategy.jpg'
                                                     alt='Image Description'
                                                     className='wow scaleOutIn'
                                                     data-wow-duration='1.2s'
                                                     data-wow-offset={134}
                                                 />
                                             </div>
-                                            <div
-                                                className='call-action-2-image-3'
-                                                data-rellax-y=''
-                                                data-rellax-speed='-0.5'
-                                                data-rellax-percentage='0.5'
-                                            >
-                                                <Image
-                                                    width={386}
-                                                    height={500}
-                                                    src='/assets/images/promo-5.jpg'
-                                                    alt='Image Description'
-                                                    className='wow scaleOutIn'
-                                                    data-wow-duration='1.2s'
-                                                    data-wow-offset={0}
-                                                />
-                                            </div>
                                         </div>
                                     </div>
-                                    {/* End Images */}
-                                    {/* Text */}
+
                                     <div className='col-lg-5 d-flex align-items-center'>
                                         <div className='wow fadeInUp' data-wow-duration='1.2s' data-wow-offset={255}>
                                             <h2 className='section-title mb-50 mb-sm-20'>Why Partner with Us?</h2>
                                             <Faq3 />
                                         </div>
                                     </div>
-                                    {/* End Text */}
                                 </div>
                             </div>
                         </section>
+
                         <section className={`small-section ${dark ? "bg-dark-1 bg-gradient-light-1 light-content" : " bg-gradient-light-1"}`}>
                             <div className='container position-relative'>
                                 <div className='row'>
