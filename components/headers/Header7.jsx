@@ -37,7 +37,7 @@ export default function Header7({ links }) {
 
                 <ul className='items-end clearlist local-scroll'>
                     <li>
-                        <Link to='/contact' className='opacity-1 no-hover'>
+                        <Link href='/contact' className='opacity-1 no-hover'>
                             <span className='btn btn-mod btn-border-grad btn-small btn-round'>
                                 <span data-btn-animate='y'>Get in touch</span>
                             </span>
